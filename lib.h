@@ -1,7 +1,10 @@
+//
+// Created by Andrea Fuselli on 01/12/21.
+//
+
 #ifndef COMPITO6_CONVERSIONELETTERE_LIBRERIALETTERE_H
 #define COMPITO6_CONVERSIONELETTERE_LIBRERIALETTERE_H
 
-char funzione(char);
+bool funzione(char, char &);
 
 #endif //COMPITO6_CONVERSIONELETTERE_LIBRERIALETTERE_H
- 
