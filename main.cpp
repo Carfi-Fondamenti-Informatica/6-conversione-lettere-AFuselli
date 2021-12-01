@@ -1,9 +1,8 @@
 #include <iostream>
-#include "LibreriaLettere.h"
-
+#include "lib.h"
 using namespace std;
 
-int main(){
+int main() {
     char a, invertito=0;
     cin >> a;
     if (funzione(a,invertito)){
@@ -12,4 +11,4 @@ int main(){
         cout << "errore";
     }
     return 0;
-} 
+}
