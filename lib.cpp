@@ -1,16 +1,21 @@
+//
+// Created by Andrea Fuselli on 01/12/21.
+//
 
 #include "LibreriaLettere.h"
-char funzione(char a){
+bool funzione(char a, char &invertito){
+    bool ris=true;
     if((65<=a and a<=90)or(97<=a and a<=122)){
+        ris=true;
         if(65<=a and a<=90){
-            a=a+32;
-            return a;
+            invertito=a+32;
+            return invertito;
         }else if(97<=a and a<=122){
-            a=a-32;
-            return a;
+            invertito=a-32;
+            return invertito;
         }
-        return true;
-    }else{
-        return false;
+    }else {
+        ris = false;
     }
+    return ris;
 }
