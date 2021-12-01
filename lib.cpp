@@ -2,7 +2,8 @@
 // Created by Andrea Fuselli on 01/12/21.
 //
 
-#include "LibreriaLettere.h"
+#include "lib.h"
+
 using namespace std;
 bool funzione(char a, char &invertito){
     bool ris=true;
