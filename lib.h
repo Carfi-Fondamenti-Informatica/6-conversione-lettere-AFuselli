@@ -4,3 +4,4 @@
 char funzione(char);
 
 #endif //COMPITO6_CONVERSIONELETTERE_LIBRERIALETTERE_H
+ 
