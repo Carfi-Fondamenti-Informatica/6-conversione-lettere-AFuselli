@@ -3,15 +3,16 @@
 //
 
 #include "LibreriaLettere.h"
+using namespace std;
 bool funzione(char a, char &invertito){
     bool ris=true;
-    if((65<=a and a<=90)or(97<=a and a<=122)){
+    if((a>=97 && a<=122)||(a>=65 && a<=90)){
         ris=true;
-        if(65<=a and a<=90){
-            invertito=a+32;
-            return invertito;
-        }else if(97<=a and a<=122){
+        if(a<=122 && a>=97){
             invertito=a-32;
+            return invertito;
+        }else if(a>=65 and a<=90){
+            invertito=a+32;
             return invertito;
         }
     }else {
