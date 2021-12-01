@@ -19,5 +19,5 @@ bool funzione(char a, char &invertito){
     }else {
         ris = false;
     }
-    return ris;
+    return ris; 
 }
