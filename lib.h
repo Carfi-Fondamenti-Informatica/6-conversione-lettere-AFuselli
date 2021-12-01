@@ -7,4 +7,4 @@
 
 bool funzione(char, char &);
 
-#endif //COMPITO6_CONVERSIONLETTERE_LIB_H
+#endif //COMPITO6_CONVERSIONLETTERE_LIB_H 
