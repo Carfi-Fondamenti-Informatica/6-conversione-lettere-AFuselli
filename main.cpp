@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    char a;
+    char a, invertito=0;
     cin >> a;
-    if (funzione(a)){
-        cout << funzione(a);
+    if (funzione(a,invertito)){
+        cout << invertito;
     }else{
         cout << "errore";
     }
